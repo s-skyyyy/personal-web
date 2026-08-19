@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Made Risky Nugraha — Portofolio Diri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="brand">Made Risky Nugraha</div>
+    <div class="navlinks">
+      <a href="#beranda">Beranda</a>
+      <a href="#biodata">Biodata</a>
+      <a href="#galeri">Galeri</a>
+    </div>
+  </nav>
+</header>
+
+<section id="beranda">
+ <div class="wrap hero">
+  <div>
+    <div class="kicker">Mahasiswa · S1 Ilmu Komputer</div>
+    <h1>Halo, saya<br><span class="it">Made Risky Nugraha</span></h1>
+    <p class="lead">
+      Biasa dipanggil <b>Risky</b>. Mahasiswa Program Studi Ilmu Komputer yang tertarik pada
+      dunia IT, khususnya bidang <b>cybersecurity</b>. Halaman ini adalah profil singkat sebagai
+      bagian dari tugas pengenalan diri kelompok.
+    </p>
+
+    <div class="carousel-wrap">
+      <div class="carousel-head">
+        <span>Geser untuk lihat lainnya</span>
+        <div class="carousel-btns">
+          <div class="cbtn" onclick="document.getElementById('hobiCarousel').scrollBy({left:-180,behavior:'smooth'})">←</div>
+          <div class="cbtn" onclick="document.getElementById('hobiCarousel').scrollBy({left:180,behavior:'smooth'})">→</div>
+        </div>
+      </div>
+      <div class="carousel" id="hobiCarousel">
+        <div class="hcard">
+          <div class="glyph">♪</div>
+          <h4>Bermain Musik</h4>
+          <p>"Earth without art is just eh",  bagi saya musik bukan hanya sekedar sebuah seni tapi juga cara untuk mengekspresikan perasaan pemain.</p>
+        </div>
+        <div class="hcard">
+          <div class="glyph">⚡</div>
+          <h4>Berolahraga</h4>
+          <p>#wegogymmmm.</p>
+        </div>
+        <div class="hcard">
+          <div class="glyph">💻</div>
+          <h4>Ngoding</h4>
+          <p>makin banyak error makin seru🔥🔥🔥🔥.</p>
+        </div>
+            <div class="hcard">
+            <div class="glyph">🌿</div>
+            <h4>Traveling</h4>
+            <p>Menjelajah alam, menikmati suasana, dan cari cerita baru di setiap perjalanan.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#biodata" class="btn btn-primary">Lihat Biodata →</a>
+      <a href="#galeri" class="btn btn-ghost">Lihat Galeri</a>
+    </div>
+
+    <div class="strip">
+      <div><span class="lbl">Kelompok</span><b>14</b></div>
+      <div><span class="lbl">Nama Kelompok</span><b>Decimal</b></div>
+      <div><span class="lbl">Prodi</span><b>S1 Ilmu Komputer</b></div>
+    </div>
+  </div>
+
+  <div class="polaroid">
+   <img src="foto.png" alt="Made Risky Nugraha" style="width:100%; height:100%; object-fit:cover;">
+    <div class="cap">Made Risky Nugraha</div>
+  </div>
+ </div>
+</section>
+
+<section id="biodata">
+ <div class="wrap">
+  <div class="section-head idx-olive">
+    <div class="idx">02</div>
+    <div>
+      <h2>Biodata Diri</h2>
+      <div class="sub">Data & Informasi Pribadi</div>
+    </div>
+  </div>
+
+  <div class="ledger">
+    <div class="bd-row"><span class="bd-key">Nama Lengkap</span><span class="bd-val">Made Risky Nugraha</span></div>
+    <div class="bd-row"><span class="bd-key">Nama Panggilan</span><span class="bd-val">Risky</span></div>
+    <div class="bd-row"><span class="bd-key">NIM</span><span class="bd-val">2615101022</span></div>
+    <div class="bd-row"><span class="bd-key">Program Studi</span><span class="bd-val">S1 Ilmu Komputer</span></div>
+    <div class="bd-row"><span class="bd-key">No. Urut Kelompok</span><span class="bd-val">14</span></div>
+    <div class="bd-row"><span class="bd-key">Nama Kelompok</span><span class="bd-val">Decimal</span></div>
+    <div class="bd-row"><span class="bd-key">Alamat Asal</span><span class="bd-val">JL. Parikesit II </span></div>
+    <div class="bd-row"><span class="bd-key">Asal Sekolah</span><span class="bd-val">SMA Negeri 2 Singaraja</span></div>
+    <div class="bd-row"><span class="bd-key">Hobi</span><span class="bd-val">Bermain piano dan berolahraga</span></div>
+  </div>
+
+  <div class="twocol">
+    <div class="info-card">
+      <div class="num">— alasan</div>
+      <h3>Memilih Teknik Informatika &amp; Ilmu Komputer</h3>
+      <p>
+        Saya memilih jurusan Teknik Informatika karena tertarik pada dunia IT, terutama bidang
+        <b style="color:var(--ink)">cybersecurity</b>. Keamanan siber adalah bidang yang terus
+        berkembang dan menantang — mempelajari bagaimana sistem, jaringan, dan data dilindungi
+        dari ancaman membuat saya ingin memperdalam ilmu di bidang ini. Program Studi Ilmu
+        Komputer dipilih karena memberi fondasi kuat di logika pemrograman, sistem, dan jaringan.
+      </p>
+    </div>
+    <div class="info-card">
+      <div class="num">— cita-cita</div>
+      <h3>Rencana Masa Depan</h3>
+      <p>Menjadi seorang <b style="color:var(--ink)">cybersecurity specialist</b> yang tidak hanya paham tentang keamanan sistem dan data, tetapi juga terus belajar mengikuti perkembangan teknologi. Saya ingin mengembangkan kemampuan di bidang cybersecurity, mencoba berbagai pengalaman baru, dan suatu saat bisa menciptakan solusi teknologi yang bermanfaat serta membantu menjaga keamanan dunia digital.</p>
+    </div>
+  </div>
+ </div>
+</section>
+
+<section id="galeri">
+ <div class="wrap">
+  <div class="section-head idx-rust">
+    <div class="idx">03</div>
+    <div>
+      <h2>Galeri</h2>
+      <div class="sub">Kegiatan &amp; Foto Diri</div>
+    </div>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gcard">
+      <div class="ph"><img src="IMG-20251211-WA0210.jpg" alt="Foto 1" style="width:100%; height:100%; object-fit:cover;"></div>
+      <div class="cap"><b>gold force</b>band sekolah saat hut SMANDA</div>
+    </div>
+    <div class="gcard">
+      <div class="ph"><img src="IMG-20251212-WA0002.jpg" alt="Foto 2" style="width:100%; height:100%; object-fit:cover;"></div>
+      <div class="cap"><b>grand final jegeg bagus SMANDA 2026</b>semeton jegeg bagus SMANDA</div>
+    </div>
+    <div class="gcard">
+      <div class="ph"><img src="IMG-20260226-WA0114.jpg" alt="Foto 3" style="width:100%; height:100%; object-fit:cover;"></div>
+      <div class="cap"><b>lomba musikalisasi puisi</b>pemenang lomba musikalisasi puisi</div>
+    </div>
+  </div>
+
+  <div class="gallery-note">
+  </div>
+ </div>
+</section>
+
+<footer>
+  Dibuat oleh <span class="rust">Made Risky Nugraha</span> — Kelompok 14 · Decimal
+</footer>
+
+</body>
+</html>
